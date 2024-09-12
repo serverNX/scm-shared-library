@@ -5,7 +5,7 @@ def call(String name = 'human') {
     // Scripted Pipeline
     echo "Hello, ${name}."
     def p = new com.utils.Log().info("郭慧鑫")
-    def robotId = 'f160382a-74b7-4514-b4d2-185ee684dc87'
+    def robotId = 'token-id****'
     def template_id = 'AAqHIy7ngeOwq'
     def template_version_name = '1.0.21'
     def artifactory_url = 'http://172.16.5.176:8081/Auto-Software-Department/DailyBuild/' + env.PRODUCT +"/" + env.SYSTEM + "/"+ currentBuild.getDescription().replace('#','%23')
